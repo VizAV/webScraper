@@ -1,0 +1,129 @@
+{
+  "div": [
+    {
+      "basicInfo": {
+        "tag": ["div"],
+        "class": [
+          "pv-top-card-section__body"
+        ],
+        "elements": [
+          {
+            "name": {
+              "tag": ["h1"],
+              "class": [
+                "pv-top-card-section__name Sans-26px-black-85%"
+              ]
+            }
+          },
+          {
+            "job": {
+              "tag": ["h3"],
+              "class": [
+                "pv-top-card-section__company Sans-17px-black-70% mb1 inline-block"
+              ]
+            }
+          },
+          {
+            "location": {
+              "tag": ["h3"],
+              "class": [
+                "pv-top-card-section__location Sans-17px-black-70% mb1 inline-block"
+              ]
+            }
+          },
+          {
+            "education": {
+              "tag": ["h3"],
+              "class": [
+                "pv-top-card-section__school pv-top-card-section__school--with-separator Sans-17px-black-70% mb1 inline"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "experience": {
+        "tag": ["li"],
+        "class": [
+          "pv-profile-section__card-item pv-position-entity ember-view",
+          "pv-profile-section__sortable-item pv-profile-section__section-info-item relative sortable-item ember-view"
+
+        ],
+        "elements": [
+          {
+            "designation": {
+              "tag": ["h3"],
+              "class": [
+                "Sans-17px-black-85%-semibold"
+              ]
+            }
+          },
+          {
+            "company": {
+              "tag": ["h4"],
+              "class": [
+                "Sans-17px-black-85%"
+              ],
+              "span":{"class":"pv-entity__secondary-title"}
+            }
+          },
+          {
+            "duration": {
+              "tag": ["h4"],
+              "class": [
+                "pv-entity__date-range inline-block Sans-15px-black-70%"
+              ],
+              "span":""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "schools": {
+        "tag": ["li"],
+        "class": [
+         "pv-profile-section__sortable-item pv-profile-section__section-info-item relative sortable-item ember-view",
+          "pv-education-entity pv-profile-section__card-item ember-view"
+        ],
+        "elements": [
+          {
+            "schoolName": {
+              "tag": ["h3"],
+              "class": [
+                "pv-entity__school-name Sans-17px-black-85%-semibold"
+              ]
+            }
+          },
+          {
+            "degreeName": {
+              "tag": ["p"],
+              "class": [
+                "pv-entity__secondary-title pv-entity__degree-name pv-entity__secondary-title Sans-15px-black-85%"
+              ],
+              "span":{"class":"pv-entity__comma-item"}
+            }
+          },
+          {
+            "field": {
+              "tag": ["p"],
+              "class": [
+                "pv-entity__secondary-title pv-entity__fos pv-entity__secondary-title Sans-15px-black-70%"
+              ],
+              "span":{"class":"pv-entity__comma-item"}
+            }
+          },
+          {
+            "yearOfJoin": {
+              "tag": ["time"],
+              "class": [
+                ""
+              ]           
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
